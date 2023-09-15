@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
       title: 'Bmi app',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.orange,
+        
+        //primarySwatch: Colors.orange,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
+        
       ),
       home: const DashBoard(),
     );
